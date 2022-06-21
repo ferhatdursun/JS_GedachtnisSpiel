@@ -4,7 +4,7 @@
 }
 
 body {
-    
+
     height: 100vh;
     width: 100vw;
     padding: 2rem 3rem;
@@ -26,7 +26,7 @@ body {
 
 
 .kutu {
-    
+
     border: 1px solid black;
     /* width: 2rem; */
     height: 11rem;
@@ -64,8 +64,9 @@ button {
 
 
 
-.start_sayac{
+.start_sayac {
     display: flex;
-    justify-content:space-between;
-    
+    margin-bottom: 2rem;
+    justify-content: space-between;
+
 }
