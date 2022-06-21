@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem 3rem;
+    cursor: pointer;
+
+}
+
+.container {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(4, 4fr);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tebrikler {
+    /* display: ; */
+    font-size: 5rem;
+    color: red;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.kutu {
+
+    border: 1px solid black;
+    /* width: 2rem; */
+    height: 11rem;
+    background-color: blueviolet;
+}
+
+.kutu:active img {
+
+    display: block;
+}
+
+
+.ahmet {
+    border: 10px solid red;
+    display: block;
+    background-color: none;
+}
+
+
+img {
+    display: none;
+    width: 298px;
+    height: 173px;
+}
+
+
+button {
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    width: 7rem;
+    height: 3rem;
+    font-size: x-large;
+}
+
+.tebrikler{
+    display:inline-block;
+    margin-left: 13rem;
+    margin-bottom: 1rem;
+    color: red;
+    width: 10rem;
+    height: 3rem;
+    font-size: x-large;
+    display: none;
+}
+
+.sayac{
+    float: right;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
